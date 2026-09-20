@@ -1,0 +1,239 @@
+/* Removes the default spacing from the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main website style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #0b1f33;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #5dade2;
+}
+
+/* All sections */
+section {
+    padding: 80px 10%;
+    min-height: 400px;
+}
+
+/* Home section */
+#home {
+    min-height: 600px;
+    background-color: #132f4c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    max-width: 650px;
+    font-size: 18px;
+}
+
+/* Section headings */
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Projects section */
+#projects {
+    background-color: #e9eef4;
+}
+
+/* Contact section */
+#contact {
+    background-color: #e9eef4;
+}
+
+/* Makes the website work better on smaller screens */
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav h2 {
+        margin-right: 0;
+    }
+
+    #home h1 {
+        font-size: 36px;
+    }
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+    padding: 80px 10%;
+    background-color: #e9eff5;
+}
+
+#projects h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #0b2942;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* CONTACT FORM */
+
+#contact {
+    background-color: #e9eff5;
+}
+
+#contact p {
+    margin-bottom: 25px;
+}
+
+#contact-form {
+    max-width: 650px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form button {
+    background-color: #0b2942;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #1d4f73;
+}
+
+/* CONTACT FORM */
+
+#contact {
+    background-color: #e9eff5;
+}
+
+#contact p {
+    margin-bottom: 25px;
+}
+
+#contact-form {
+    max-width: 650px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form button {
+    background-color: #0b2942;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #1d4f73;
+}
